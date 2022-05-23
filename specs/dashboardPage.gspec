@@ -1,0 +1,18 @@
+@objects
+    header                  header.header
+    table_wrapper           cdl-table-wrapper
+
+@set
+    header_height           40px
+    screen_width            100% of screen/width
+    table_wrapper_height    ~ 95% of screen/height
+
+= Header =
+    header:
+        height      ${header_height}
+        width       ${screen_width}
+
+= Table =
+    table_wrapper:
+        height      ${table_wrapper_height}
+        width       ${screen_width}
